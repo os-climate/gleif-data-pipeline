@@ -10,5 +10,5 @@ build:
   base-image: quay.io/thoth-station/s2i-elyra-custom-notebook:latest
   registry: quay.io
   registry-org: os-climate
-  registry-project: data-platform-demo
+  registry-project: gleif-data-pipeline
   registry-secret: os-climate-pusher-secret
