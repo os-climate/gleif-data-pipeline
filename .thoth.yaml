@@ -21,6 +21,7 @@ managers:
       maintainers:
         - erikerlandson
         - oindrillac
+        - DavWinkel
       assignees:
         - sesheta
       labels: [bot]
