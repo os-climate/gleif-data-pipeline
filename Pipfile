@@ -3,32 +3,28 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[dev-packages]
-flake8 = "*"
-coverage = "*"
-Sphinx = "*"
-
 [packages]
 #src = {editable = true, path = "./"}
 awscli = "*"
 python-dotenv = "*"
 ipywidgets = "*"
-boto3 = "*"
-trino = "*"
-pandas = "*"
-anytree = "*"
-sqlalchemy = "*"
-sqlalchemy-trino = "*"
-osc-ingest-tools = "*"
-pyarrow = "*"
-fastparquet = "*"
 
 # deps for notebooks and pipelines
 boto3 = "*"
 trino = "*"
 pandas = "*"
 pyarrow = "*"
+fastparquet = "*"
 openpyxl = "*"
+sqlalchemy = "*"
+sqlalchemy-trino = "*"
+osc-ingest-tools = "*"
+anytree = "*"
+
+[dev-packages]
+flake8 = "*"
+coverage = "*"
+Sphinx = "*"
 
 [requires]
 python_version = "3.8"
