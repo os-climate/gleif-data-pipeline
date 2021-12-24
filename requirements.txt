@@ -1,0 +1,13 @@
+anytree
+awscli
+boto3
+fastparquet
+ipywidgets
+openpyxl
+osc-ingest-tools
+pandas
+pyarrow
+python-dotenv
+sqlalchemy
+sqlalchemy-trino
+trino
